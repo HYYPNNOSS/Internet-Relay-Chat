@@ -39,7 +39,7 @@ Follow these simple steps to get started with the IRC Server Project:
 1. Clone the repository to your local machine:
 
 ```sh
-https://github.com/HYYPNNOSS/ft_irc.git
+https://github.com/HYYPNNOSS/Internet-Relay-Chat.git
 ```
 
 2. Navigate to the project directory:
