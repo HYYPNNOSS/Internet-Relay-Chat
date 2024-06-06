@@ -64,7 +64,7 @@ std::vector<std::string> splitString(const std::string& str) {
 std::string joinVectorFromIndex(const std::vector<std::string>& input, size_t startIndex) {
     std::string result;
 
-    if (startIndex < 0 || startIndex >= input.size())
+    if (startIndex >= input.size())
         return result;
 
     for (size_t i = startIndex; i < input.size(); ++i) {
@@ -82,7 +82,7 @@ std::string joinVectorFromIndex(const std::vector<std::string>& input, size_t st
 std::string joinVectorFromIndex2(const std::vector<std::string>& input, size_t startIndex) {
     std::string result;
 
-    if (startIndex < 0 || startIndex >= input.size())
+    if (startIndex >= input.size())
         return result;  // Return an empty string if the start index is out of bounds
 
     for (size_t i = startIndex; i < input.size(); ++i) {
